@@ -1,1 +1,0 @@
-Abstração : mundo real, -> real -> Abstração01 , Abstração02!
