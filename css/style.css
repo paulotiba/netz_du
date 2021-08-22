@@ -101,3 +101,106 @@ h2 {
   padding-top: 50px;
   height: 350px;
 }
+
+#about-section h2 {
+  margin-bottom: 20px;
+}
+
+#about-section p {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 30px;
+}
+
+/* Habilidades */
+
+#habilidades-section {
+  margin-top: -100px;
+  background-color: #FFF;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+}
+ 
+
+#habilidades-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.habilidades-container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+.habilidades-container h3 {
+  color: #ED1E24;
+  font-size: 20px;
+}
+
+.habilidades-container img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #ED1E24;
+  border-left: 1px solid #ED1E24;
+  border-bottom: 4px solid #ED1E24;
+  border-right: 4px solid #ED1E24;
+}
+
+.habilidades-container .subtitle {
+  font-weight: bold;
+  color: #ED1E24;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.habilidades-container p {
+  line-height: 25px;
+}
+
+/* trabalhos */
+
+#trabalhos {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#trabalhos h2 {
+  color: #ED1E24;
+  margin-bottom: 30px;
+}
+
+#trabalhos p {
+  margin-bottom: 50px;
+}
+
+#trabalhos a {
+  font-weight: bold;
+  color: #ED1E24;
+}
+
+.trabalhos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.trabalho-box {
+  flex: 1 1 200px;
+}
+
