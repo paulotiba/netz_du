@@ -25,13 +25,18 @@ h2 {
     line-height: 60px;
     margin-left: 55px;
   }
+
+  .round {
+    border-radius: 60%;
+  
+  }
   
   #navbar img {
     height: 40px;
     position: absolute;
     top: 10px;
   }
-  
+
   #navbar nav {
     float: right;
   }
@@ -49,6 +54,23 @@ h2 {
     color: #FFF;
   }
   
-  .navbar-list li a:hover {
+  #navbar-list li a:hover {
     border-bottom: 1px solid #FFF;
   }
+/* banner */
+
+#main-banner{
+  height: 70vh;
+  background-image: url('../img/bg-projeto.jpg');
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+#banner-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color:#FFF;
+
+}
