@@ -102,8 +102,8 @@
         <h2>Me mande uma mensagem</h2>
         <p>Caso queira falar de algum projeto, ou me contratar.</p>
         <img src="./img/bannerneon.png" alt="imgem da empresa" width="500">
-        <form action="" method="">
-            <input type="text" name="name" placeholder="Seu Nome">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Seu Nome" value="<?= $_POST['nome'] ?>">
             <input type="email" name="email" placeholder="Seu e-mail">
             <textarea name="msg" placeholder="Digite uma mensagem" cols="30" rows="10"></textarea>
             <input type="submit" value="Enviar">
