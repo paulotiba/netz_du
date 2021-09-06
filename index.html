@@ -56,25 +56,27 @@
                 <p class="subtitle">Linguagens que utilizo:</p>
                 <p>HTMl, CSS, JS, PHP e Python</p>
                 <p class="subtitle">Projetos que posso desenvolver:</p>
-                <p>E-commerces, Sites institucionais, Sistemas de qualquer complexidade</p>
+                <p>Sites institucionais, Sistemas de qualquer complexidade</p>
             </div>
             <div class="habilidades-container central">
                 <img src="./img/weapon2.png" alt="armas">
-                <h3>Desenvolvimento</h3>
-                <p>Maior Objetivo que todos estejam ON!</p>
-                <p class="subtitle">Linguagens que utilizo:</p>
-                <p>HTMl, CSS, JS, PHP e Python</p>
-                <p class="subtitle">Projetos que posso desenvolver:</p>
-                <p>E-commerces, Sites institucionais, Sistemas de qualquer complexidade</p>
+                <h3>Pontualidade.</h3>
+                <p>Entregamos o que foi combinado no prazo.</p>
+                <p class="subtitle">Rede Sociais</p>
+            <p>Facebook, Instagram, e outras damos suporte inicial para divulgação.</p>
+                <p class="subtitle">Projetos que posso desenvolver nas redes:</p>
+                <p>Contratar serviços de divulgação para aumentar o numéro de visitas</p>
             </div>
             <div class="habilidades-container">
                 <img src="./img/weapon3.png" alt="armas">
-                <h3>Desenvolvimento</h3>
-                <p>Maior Objetivo que todos estejam ON!</p>
+                <h3>Sites em Wordpress:</h3>
+                <p>Sites personalizados com um painel administrativo para que voçê possa estar editando 
+                    seu site, e renovando publicações, adicionando novas promoções.
+                </p>
                 <p class="subtitle">Linguagens que utilizo:</p>
-                <p>HTMl, CSS, JS, PHP e Python</p>
+                <p>HTMl, CSS, JS, PHP </p>
                 <p class="subtitle">Projetos que posso desenvolver:</p>
-                <p>E-commerces, Sites institucionais, Sistemas de qualquer complexidade</p>
+                <p>E-commerces, Sites institucionais.</p>
             </div>
         </div>
     </section>
@@ -102,10 +104,10 @@
         <h2>Me mande uma mensagem</h2>
         <p>Caso queira falar de algum projeto, ou me contratar.</p>
         <img src="./img/bannerneon.png" alt="imgem da empresa" width="500">
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Seu Nome" value="<?= $_POST['nome'] ?>">
-            <input type="email" name="email" placeholder="Seu e-mail">
-            <textarea name="msg" placeholder="Digite uma mensagem" cols="30" rows="10"></textarea>
+        <form action="mailto:paulotiba@hotmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Seu Nome" value="" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="msg" placeholder="Digite uma mensagem" required cols="30" rows="10"></textarea>
             <input type="submit" value="Enviar">
             <p>Desenvolvido por <span class="detail"> Paulo Fernando Tiba, Que bom ter Voçê Aqui!</span></p>
         </form>
