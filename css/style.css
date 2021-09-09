@@ -130,8 +130,8 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-align: center;
 }
+
 
 .habilidades-container {
   flex: 1 1 1;
@@ -205,20 +205,21 @@ h2 {
   flex: 1 1 200px;
   margin-left: 25px;
   margin-right: 25px;
-  height: 300px;
+  height: 500px;
   background-size: cover;
   border-right: 2px solid #ED1E24;
   border-bottom: 2px solid #ED1E24;
 }
 
-.proj1 {
-  background-image: url('../img/proj1.jpg');
+ .proj1 {
+  background-image: url('../img/1.png');
+  max-width: 100%;
 }
 .proj2 {
-  background-image: url('../img/proj2.jpg');
+  background-image: url('../img/2.png');
 }
 .proj3 {
-  background-image: url('../img/proj3.jpg');
+  background-image: url('../img/3.png');
 }
 
 footer {
@@ -256,6 +257,29 @@ footer .detail {
   font-weight: bold;
   color:#CCC;
 }
+ 
+ .botao a, .botao a:visited {  
+   position: absolute;
+  margin: auto;
+  padding: auto;
+  font: bold 12px/24px arial, helvetica, sans-aerif;	
+  padding:0px;
+  text-decoration: none;
+  text-align:center;	
+  color:#fff;
+  background: #666 url('botao_link.gif') no-repeat 
+  center center;	
+  width:120px;  
+  height:24px;	
+  display:block;
+
+  }
+
+  .botao a:hover { 
+    background: #666 url('botao_hover.gif') no-repeat 
+    center center;
+    color:#999;
+
 
 
 /* responsive celulares */
