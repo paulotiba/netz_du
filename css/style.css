@@ -211,9 +211,10 @@ h2 {
 
 .trabalho-box {
   flex: 1 1 300px;
+  padding: auto;
   margin-left: 25px;
   margin-right: 25px;
-  height: 400px;
+  /* height: 400px; */
   background-size: cover;
   border-right: 2px solid #ED1E24;
   border-bottom: 2px solid #ED1E24; 
