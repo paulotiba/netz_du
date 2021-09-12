@@ -116,9 +116,9 @@ h2 {
 /* Habilidades */
 
 #habilidades-section {
-  margin-top: -100px;
+  margin-top: -60px;
   background-color: #FFF;
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid #DDD;
@@ -129,15 +129,17 @@ h2 {
 #habilidades-section .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
-
-.habilidades-container {
+ .habilidades-container {
+   display: flex;
+   flex-direction: column;
   flex: 1 1 1;
   text-align: center;
   padding: 60px 25px;
-}
+} 
 
 .central {
   border-left: 1px solid #CCC;
@@ -150,13 +152,15 @@ h2 {
 }
 
 .habilidades-container img {
+  box-sizing: content-box;
   height: 60px;
+  width: 50px;
   padding: 15px;
   margin-bottom: 25px;
   border-top: 1px solid #ED1E24;
   border-left: 1px solid #ED1E24;
   border-bottom: 4px solid #ED1E24;
-  border-right: 4px solid #ED1E24;
+  border-right: 4px solid #ED1E24; 
 }
 
 .habilidades-container .subtitle {
@@ -193,7 +197,7 @@ h2 {
 
 .trabalhos-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   max-width: 1200px;
   margin-left: auto;
@@ -202,25 +206,19 @@ h2 {
 }
 
 .trabalho-box {
-  flex: 1 1 200px;
+  flex: 1 1 300px;
   margin-left: 25px;
   margin-right: 25px;
-  height: 500px;
+  height: 400px;
   background-size: cover;
   border-right: 2px solid #ED1E24;
-  border-bottom: 2px solid #ED1E24;
+  border-bottom: 2px solid #ED1E24; 
 }
 
- .proj1 {
-  background-image: url('../img/1.png');
-  max-width: 100%;
-}
-.proj2 {
-  background-image: url('../img/2.png');
-}
-.proj3 {
-  background-image: url('../img/3.png');
-}
+
+
+
+
 
 footer {
   padding: 50px;
@@ -275,12 +273,12 @@ footer .detail {
 
   }
 
-  .botao a:hover { 
+.botao a:hover { 
     background: #666 url('botao_hover.gif') no-repeat 
-    center center;
+     center;
     color:#999;
 
-
+}
 
 /* responsive celulares */
 
@@ -333,14 +331,19 @@ footer .detail {
   padding-bottom: 50px;
 }
 /* habilidades */
+
 #habilidades-section {
   margin-top: -35px;
-  width: 90%;
+  width: 85%;
 }
 
-  #habilidades-section .container {
+#habilidades-section .container {
+  display: 1 1 200px;
+  display: flex;
   flex-direction: column;
-}
+  align-items: center;
+
+} 
 
 .habilidades-container h3, #habilidades-container .subtitle {
   font-size: 1.3rem;
@@ -360,7 +363,7 @@ footer .detail {
 #trabalhos h2, #trabalhos p {
   width: 85%;
   margin-left: auto;
-  margin-right:auto ;
+  margin-right: auto;
 }
 
 .trabalhos-container {
@@ -371,7 +374,32 @@ footer .detail {
 .trabalho-box {
   margin-bottom: 2rem;
   flex: 1 1 300px;
+  flex-direction: column;
 }
+
+.servicos-oferecidos {
+  margin: 20px 20px 0 20px;
+  justify-content: center;
+  width: 90%;
+}
+
+
+
+ /* .proj1 {
+ background-size: 50px 130px 0;
+ background-image: absolute;
+ margin:auto;
+}
+.proj2 {
+  background-size: 50px 130px 0;
+  background-image: absolute;
+  margin:auto;
+}
+.proj3 {
+  background-size: 50px 130px 0;
+  background-image: absolute;
+  margin:auto;
+}  */
 
 
 /* footer */
@@ -392,7 +420,3 @@ footer img {
   display: block;
 }
 
-}
-@media(max-width: 350px) {
-  
-}
