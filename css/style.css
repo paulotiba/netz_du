@@ -363,6 +363,10 @@ footer .detail {
   border-bottom: 1px solid #CCC;
 }
 
+.habilidades-container img {
+  display: none;
+}
+
 /* trabalhos */
 
 #trabalhos h2, #trabalhos p {
